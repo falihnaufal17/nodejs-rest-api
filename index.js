@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const reservationRoute = require('./routes/reservation.route');
+const reservationRoute = require('./src/routes/reservation.route');
 
 app.use(express.json())
 
